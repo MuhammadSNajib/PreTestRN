@@ -1,0 +1,5 @@
+{
+  "baseURL": "gateway.dev.boost.id/canvasser/v1",
+  "apiKey": "",
+  "limitPerPage": 10
+}
