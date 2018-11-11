@@ -65,6 +65,18 @@ export default function authReducer(state = initialState, action) {
         loginResult: '',
         user: null
       }
+    case 'LOGOUT':
+      return {
+        ...state,
+        isLoading: false,
+        isError: false,
+        isSuccess: false,
+        email: 'mid@meteor.id',
+        password: 'admin123',
+        token: '',
+        loginResult: '',
+        user: null
+      }
     default:
       return state
   }

@@ -18,6 +18,11 @@ export const Customs = {
 		size: "large",
 		style: [styles.buttonDisableLoading]
 	},
+	LoadingMainScreen: {
+		color: Colors.primary,
+		size: "large",
+		style: [styles.buttonDisableLoading]
+	},
   bannerSwipe: {
     autoplay: true,
     removeClippedSubviews: false,

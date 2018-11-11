@@ -62,3 +62,9 @@ export function resetData() {
     type: 'RESET_DATA'
   }
 }
+
+export function logout() {
+  return {
+    type: 'LOGOUT'
+  }
+}

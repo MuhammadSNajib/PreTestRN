@@ -75,19 +75,6 @@ export const styles = StyleSheet.create({
     fontSize: 17,
     fontFamily: 'Roboto-Light'
   },
-  buttonDisable: {
-    minWidth: '100%',
-    flexDirection: 'row',
-    backgroundColor: '#ffffff',
-    paddingVertical: 10,
-    paddingHorizontal: 10,
-    borderRadius: 2,
-    borderWidth: 1,
-    borderColor: Colors.primary,
-    justifyContent: 'center',
-    alignItems: 'center',
-    minHeight: 40,
-  },
   header: {
     height: 250,
     width: '100%'

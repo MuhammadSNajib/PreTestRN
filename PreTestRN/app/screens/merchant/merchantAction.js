@@ -4,8 +4,6 @@ export function getMerchantAPI(token, refresh, page) {
   return (dispatch) => {
     dispatch(merchant(refresh, page))
 
-
-
     let get_page = page
     let per_page = config.limitPerPage
 
