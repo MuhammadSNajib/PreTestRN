@@ -2,8 +2,8 @@ const initialState = {
   isLoading: false,
   isError: false,
   isSuccess: false,
-  email: 'mid@meteor.id',
-  password: 'admin123',
+  email: '',
+  password: '',
   token: '',
   loginResult: '',
   user: null
@@ -60,8 +60,8 @@ export default function authReducer(state = initialState, action) {
         isLoading: false,
         isError: false,
         isSuccess: false,
-        email: 'mid@meteor.id',
-        password: 'admin123',
+        email: '',
+        password: '',
         loginResult: '',
         user: null
       }
@@ -71,8 +71,8 @@ export default function authReducer(state = initialState, action) {
         isLoading: false,
         isError: false,
         isSuccess: false,
-        email: 'mid@meteor.id',
-        password: 'admin123',
+        email: '',
+        password: '',
         token: '',
         loginResult: '',
         user: null
